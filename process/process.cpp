@@ -25,6 +25,6 @@ int main()
 	shared_ptr<int> p(new int(42));	// 引用计数为1
 	process(p);						// 拷贝p给参数ptr，会递增它的引用计数，引用计数为2
 	int i = *p;						// 正确:引用计数为1
-	
 #endif
+	cout << "Hello world" << endl;
 }
