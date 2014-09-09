@@ -16,6 +16,10 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+#LS
+*.vcxproj
+*.vcxproj.filters
+
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
